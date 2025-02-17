@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Metaetiquetas básicas -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- SEO Meta Tags -->
+  <title data-i18n="page.title">Cabañas Colibrí - De Montaña</title>
+  <meta name="description" content="Disfruta de la experiencia en Cabañas Colibrí, cabañas de montaña en Costa Rica donde podrás relajarte y conectar con la naturaleza.">
+  <meta name="keywords" content="cabañas, montaña, Costa Rica, Suiza, naturaleza, descanso, reservas">
+  <meta name="author" content="Wincodecr">
+  <link rel="canonical" href="https://www.colibricr.com">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Cabañas Colibrí - De Montaña">
+  <meta property="og:description" content="Disfruta de la experiencia en Cabañas Colibrí, cabañas de montaña en Costa Rica.">
+  <meta property="og:image" content="assets/img/logo_cabanias_colibri.png">
+  <meta property="og:url" content="https://www.colibricr.com">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/logo_cabanias_colibri_ico.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/img/logo_cabanias_colibri_ico.ico">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- AOS CSS (Animate On Scroll) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Incluye i18next y jQuery -->
+  <script src="https://unpkg.com/i18next@21.6.16/dist/umd/i18next.min.js"></script>
+  <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://unpkg.com/jquery-i18next@1.2.1/dist/umd/jquery-i18next.min.js"></script>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container d-flex justify-content-end">
+        <a href="https://maps.app.goo.gl/c9wtDBLPPv6H4q9i7" target="_blank" class="top-link" data-i18n="topbar_maps">MAPS</a> 
+        <a href="#reserva" class="top-link" data-i18n="topbar_reservar">RESERVAR</a>  
+        <a href="#ubicacion" class="top-link" data-i18n="topbar_contactenos">CONTÁCTENOS</a> 
+        <div style="padding: 5px;"></div>
+        <!-- Selector de idioma -->
+        <select id="languageSwitcher">
+          <option value="en">English</option>
+          <option value="es" selected>Español</option>
+          <option value="de">Deutsch</option>
+        </select>       
+      </div>
+    </div>
+    <!-- Fin Top Bar -->
+
+    <!-- Navbar Principal -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <!-- Logo de la marca -->
+        <a class="navbar-brand" href="#slides">
+          <img src="assets/img/logo_cabanias_colibri.png" alt="Cabañas Colibrí" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú de navegación -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#slides">
+                <img src="assets/img/colibri.png" alt="Inicio" class="menu-icon">
+                <span data-i18n="navbar_inicio">INICIO</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#concepto">
+                <span data-i18n="navbar_concepto">CONCEPTO</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#habitaciones">
+                <span data-i18n="navbar_habitaciones">HABITACIONES</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#explora">
+                <span data-i18n="navbar_actividades">ACTIVIDADES</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeria">
+                <span data-i18n="navbar_galeria">GALERÍA</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ubicacion">
+                <span data-i18n="navbar_ubicacion">UBICACIÓN</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ubicacion">
+                <span data-i18n="navbar_contacto">CONTACTO</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Fin Navbar Principal --> 
+  </header>
+  <!-- FIN HEADER -->
+
+  <!-- SLIDER -->
+  <div id="slides" class="cover-slides" data-aos="fade-in">
+    <ul class="slides-container">
+      <!-- Diapositiva 1 -->
+      <li class="slide-item">
+        <picture>
+          <source srcset="assets/img/slides/DSC_8250.jpg" media="(max-width: 768px)">
+          <img src="assets/img/slides/DSC_8250.jpg" alt="Primera diapositiva">
+        </picture>
+        <div class="overlay"></div>
+        <div class="slide-content">
+          <div class="left-content">
+            <h2 data-i18n="slider.title">CABAÑA SUIZA</h2>
+            <p class="subtitulo" data-i18n="slider.subtitle">con 5 Habitaciones – de Montaña, Costa Rica.</p>
+          </div>
+          <div class="right-content">
+            <p data-i18n="slider.description">
+              Descubre nuestras cabañas para parejas o grupos con espacios ideales para relajarte y conectar con la naturaleza, a solo 15 min de San José.
+            </p>
+          </div>
+        </div>
+        <div class="btn-wrapper">
+          <a href="https://api.whatsapp.com/send?phone=%2B50688369997&text=Estoy%20interesado%20en%20alquilar%20una%20habitación" target="_blank" class="btn-reservar" data-i18n="slider.reserve">Reservar</a>
+        </div>
+      </li>
+
+      <!-- Diapositiva 2 -->
+      <li class="slide-item">
+        <picture>
+          <source srcset="assets/img/slides/DSC_5022.jpg" media="(max-width: 768px)">
+          <img src="assets/img/slides/DSC_5022.jpg" alt="Segunda diapositiva">
+        </picture>
+        <div class="overlay"></div>
+        <div class="slide-content">
+          <div class="left-content">
+            <h2 data-i18n="slider.title">CABAÑA SUIZA</h2>
+            <p class="subtitulo" data-i18n="slider.subtitle">con 5 Habitaciones – de Montaña</p>
+          </div>
+          <div class="right-content">
+            <p data-i18n="slider.description">
+              Descubre nuestras cabañas para parejas o grupos con espacios ideales para relajarte y conectar con la naturaleza, a solo 15 min de San José.
+            </p>
+          </div>
+        </div>
+        <div class="btn-wrapper">
+          <a href="https://api.whatsapp.com/send?phone=%2B50688369997&text=Estoy%20interesado%20en%20alquilar%20una%20habitación" target="_blank" class="btn-reservar" data-i18n="slider.reserve">Reservar</a>
+        </div>
+      </li>
+
+      <!-- Diapositiva 3 -->
+      <li class="slide-item">
+        <picture>
+          <source srcset="assets/img/slides/DSC_8366.jpg" media="(max-width: 768px)">
+          <img src="assets/img/slides/DSC_8366.jpg" alt="Tercera diapositiva">
+        </picture>
+        <div class="overlay"></div>
+        <div class="slide-content">
+          <div class="left-content">
+            <h2 data-i18n="slider.title">CABAÑA SUIZA</h2>
+            <p class="subtitulo" data-i18n="slider.subtitle">con 5 Habitaciones – de Montaña</p>
+          </div>
+          <div class="right-content">
+            <p data-i18n="slider.description">
+              Descubre nuestras cabañas para parejas o grupos con espacios ideales para relajarte y conectar con la naturaleza, a solo 15 min de San José.
+            </p>
+          </div>
+        </div>
+        <div class="btn-wrapper">
+          <a href="https://api.whatsapp.com/send?phone=%2B50688369997&text=Estoy%20interesado%20en%20alquilar%20una%20habitación" target="_blank" class="btn-reservar" data-i18n="slider.reserve">Reservar</a>
+        </div>
+      </li>
+    
+      <!-- Diapositiva 4 -->
+      <li class="slide-item">
+        <picture>
+          <source srcset="assets/img/slides/DSC_8083.jpg" media="(max-width: 768px)">
+          <img src="assets/img/slides/DSC_8083.jpg" alt="Cuarta diapositiva">
+        </picture>
+        <div class="overlay"></div>
+        <div class="slide-content">
+          <div class="left-content">
+            <h2 data-i18n="slider.title">CABAÑA SUIZA</h2>
+            <p class="subtitulo" data-i18n="slider.subtitle">con 5 Habitaciones – de Montaña</p>
+          </div>
+          <div class="right-content">
+            <p data-i18n="slider.description">
+              Descubre nuestras cabañas para parejas o grupos con espacios ideales para relajarte y conectar con la naturaleza, a solo 15 min de San José.
+            </p>
+          </div>
+        </div>
+        <div class="btn-wrapper">
+          <a href="https://api.whatsapp.com/send?phone=%2B50688369997&text=Estoy%20interesado%20en%20alquilar%20una%20habitación" target="_blank" class="btn-reservar" data-i18n="slider.reserve">Reservar</a>
+        </div>
+      </li>
+     
+      <!-- Diapositiva 5 -->
+      <li class="slide-item">
+        <picture>
+          <source srcset="assets/img/slides/DSC_8422.jpg" media="(max-width: 768px)">
+          <img src="assets/img/slides/DSC_8422.jpg" alt="Quinta diapositiva">
+        </picture>
+        <div class="overlay"></div>
+        <div class="slide-content">
+          <div class="left-content">
+            <h2 data-i18n="slider.title">CABAÑA SUIZA</h2>
+            <p class="subtitulo" data-i18n="slider.subtitle">con 5 Habitaciones – de Montaña</p>
+          </div>
+          <div class="right-content">
+            <p data-i18n="slider.description">
+              Descubre nuestras cabañas para parejas o grupos con espacios ideales para relajarte y conectar con la naturaleza, a solo 15 min de San José.
+            </p>
+          </div>
+        </div>
+        <div class="btn-wrapper">
+          <a href="https://api.whatsapp.com/send?phone=%2B50688369997&text=Estoy%20interesado%20en%20alquilar%20una%20habitación" target="_blank" class="btn-reservar" data-i18n="slider.reserve">Reservar</a>
+        </div>
+      </li>
+    </ul>
+
+    <!-- Botones de navegación del slider -->
+    <div class="slides-navigation">
+      <a href="#" class="prev">&#9664;</a>
+      <a href="#" class="next">&#9654;</a>
+    </div>
+    
+    <!-- Indicadores del slider -->
+    <div class="slide-indicators"></div>
+  </div>
+  <!-- FIN SLIDER -->
+
+  <!-- Espaciador -->
+  <div class="spacer" style="padding: 65px;background-color: #f8f4ee;"></div>
+
+  <!-- SECCIÓN CONCEPTO (SERVICIOS Y AMENIDADES) -->
+  <section id="concepto" class="amenities" data-aos="fade-up">        
+    <h2 data-i18n="concepto.title">CONCEPTO (SERVICIOS Y AMENIDADES)</h2>
+    <p data-i18n="concepto.description">
+      Construcción de 4 habitaciones dentro de chalet inspirado en Suiza con habitaciones independientes. 
+      Además, 1 habitación externa rodeada de naturaleza, flora y fauna de San Isidro de Heredia y las faldas del Zurquí.
+    </p>
+    <div class="spacer" style="padding: 15px;"></div>
+    <div class="amenities-container">
+      <!-- Amenidad 1 -->
+      <div class="amenity" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
+        <div class="icon">
+          <img src="assets/img/icons/construccion.svg" alt="Chalet">
+        </div>
+        <p data-i18n="concepto.amenities.amenity1">Construcción de 4 habitaciones dentro de chalet inspirado en Suiza. Incluye parqueo.</p>
+      </div>
+      <!-- Amenidad 2 -->
+      <div class="amenity" data-aos="fade-up" data-aos-delay="3000" data-aos-duration="1000">
+        <div class="icon">
+          <img src="assets/img/icons/construccion.svg" alt="Habitación">
+        </div>
+        <p data-i18n="concepto.amenities.amenity2">1 Habitación separada del chalet con espacio ideal para reunión familiar o grupo. (Habitación #5) Parqueo.</p>
+      </div>
+      <!-- Amenidad 3 -->
+      <div class="amenity" data-aos="fade-up" data-aos-delay="2000" data-aos-duration="1000">
+        <div class="icon">
+          <img src="assets/img/icons/sendero.svg" alt="Sendero">
+        </div>
+        <p data-i18n="concepto.amenities.amenity3">Sendero de 100m de largo.</p>
+      </div>
+      <!-- Amenidad 4 -->
+      <div class="amenity" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
+        <div class="icon">
+          <img src="assets/img/icons/jazuzzi.svg" alt="Jacuzzi">
+        </div>
+        <p data-i18n="concepto.amenities.amenity4">3 habitaciones cuentan con amplio jacuzzi.</p>
+      </div>
+      <!-- Amenidad 5 -->
+      <div class="amenity" data-aos="fade-up" data-aos-delay="4000" data-aos-duration="1000">
+        <div class="icon">
+          <img src="assets/img/icons/alimentacion.svg" alt="Desayuno">
+        </div>
+        <p data-i18n="concepto.amenities.amenity5">Desayuno servido a la habitación.</p>
+      </div>
+      <!-- Amenidad 6 -->
+      <div class="amenity" data-aos="fade-up" data-aos-delay="5000" data-aos-duration="1000">
+        <div class="icon">
+          <img src="assets/img/icons/television.svg" alt="TV e Internet">
+        </div>
+        <p data-i18n="concepto.amenities.amenity6">Incluye servicio de internet y TV.</p>
+      </div>
+    </div>
+  </section>
+  <!-- FIN SECCIÓN CONCEPTO -->
+
+  <!-- Espaciador -->
+  <div class="spacer" style="padding: 30px;background-color: #f8f4ee;"></div>
+
+  <!-- SECCIÓN HABITACIONES -->
+  <section id="habitaciones" class="habitaciones-section" data-aos="fade-up">
+    <div class="container text-center">
+      <h2 class="section-title" data-i18n="habitaciones.title">Nuestras Habitaciones</h2>
+      <p class="section-description" data-i18n="habitaciones.description">
+        Descubre nuestras habitaciones diseñadas para tu confort y relajación. Cada una ofrece una experiencia única en un entorno natural.
+      </p>
+    </div>
+    <!-- Carrusel de Habitaciones -->
+    <div id="habitacionesCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Habitación 1 -->
+        <div class="carousel-item active">
+          <div class="habitacion-card">
+            <div class="habitacion-bg"
+              data-bg-desktop="assets/img/hab-carrusel/habitacion_1_desktop.png"
+              data-bg-mobile="assets/img/hab-carrusel/habitacion_1_mobile.png">
+            </div>
+            <div class="habitacion-content">
+              <h3 data-i18n="habitaciones.room1.title">Habitación #1 - ZÚRICH (ZÜRICH)</h3>
+              <p data-i18n="habitaciones.room1.description">Una habitación espaciosa con vista a la montaña y jacuzzi privado.</p>
+              <a href="habitacion_detalle.html" class="btn btn-primary" data-i18n="habitaciones.room1.link">Ver Habitación</a>
+            </div>
+          </div>
+        </div>
+        <!-- Habitación 2 -->
+        <div class="carousel-item">
+          <div class="habitacion-card">
+            <div class="habitacion-bg"
+              data-bg-desktop="assets/img/hab-carrusel/habitacion_2_desktop.png"
+              data-bg-mobile="assets/img/hab-carrusel/habitacion_2_mobile.png">
+            </div>
+            <div class="habitacion-content">
+              <h3 data-i18n="habitaciones.room2.title">Habitación #2 - GINEBRA (GENÈVE)</h3>
+              <p data-i18n="habitaciones.room2.description">Una habitación espaciosa con vista a la montaña.</p>
+              <a href="#" class="btn btn-primary" data-i18n="habitaciones.room2.link">Ver Habitación</a>
+            </div>
+          </div>
+        </div>
+        <!-- Habitación 3 -->
+        <div class="carousel-item">
+          <div class="habitacion-card">
+            <div class="habitacion-bg"
+              data-bg-desktop="assets/img/hab-carrusel/habitacion_3_desktop.png"
+              data-bg-mobile="assets/img/hab-carrusel/habitacion_3_mobile.png">
+            </div>
+            <div class="habitacion-content">
+              <h3 data-i18n="habitaciones.room3.title">Habitación #3 - BASILEA (BASEL)</h3>
+              <p data-i18n="habitaciones.room3.description">Una habitación espaciosa con vista a la montaña.</p>
+              <a href="#" class="btn btn-primary" data-i18n="habitaciones.room3.link">Ver Habitación</a>
+            </div>
+          </div>
+        </div>
+        <!-- Habitación 4 -->
+        <div class="carousel-item">
+          <div class="habitacion-card">
+            <div class="habitacion-bg"
+              data-bg-desktop="assets/img/hab-carrusel/habitacion_4_desktop.png"
+              data-bg-mobile="assets/img/hab-carrusel/habitacion_4_mobile.png">
+            </div>
+            <div class="habitacion-content">
+              <h3 data-i18n="habitaciones.room4.title">Habitación #4 - BERNA</h3>
+              <p data-i18n="habitaciones.room4.description">Una habitación espaciosa con vista a la montaña.</p>
+              <a href="#" class="btn btn-primary" data-i18n="habitaciones.room4.link">Ver Habitación</a>
+            </div>
+          </div>
+        </div>
+        <!-- Habitación 5 -->
+        <div class="carousel-item">
+          <div class="habitacion-card">
+            <div class="habitacion-bg"
+              data-bg-desktop="assets/img/hab-carrusel/habitacion_5_desktop.png"
+              data-bg-mobile="assets/img/hab-carrusel/habitacion_5_mobile.png">
+            </div>
+            <div class="habitacion-content">
+              <h3 data-i18n="habitaciones.room5.title">Habitación #5 - LUCERNA (LUZERN)</h3>
+              <p data-i18n="habitaciones.room5.description">Una habitación espaciosa con vista a la montaña.</p>
+              <a href="#" class="btn btn-primary" data-i18n="habitaciones.room5.link">Ver Habitación</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Controles del carrusel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#habitacionesCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#habitacionesCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+  <!-- FIN SECCIÓN HABITACIONES -->
+
+  <!-- SECCIÓN EXPLORA Y DISFRUTA -->
+  <section id="explora" class="explora-section" data-aos="fade-up">
+    <div class="container text-center">
+      <h2 class="section-title" data-i18n="explora.title">Explora y Disfruta</h2>
+      <p class="section-description" data-i18n="explora.description">
+        Descubre restaurantes, actividades y lugares turísticos cerca de nuestra cabaña.
+      </p>
+      <!-- Filtros de categorías -->
+      <div class="filter-buttons">
+        <button class="filter-btn" data-filter="all" data-i18n="explora.filters.all">Todos</button>
+        <button class="filter-btn" data-filter="restaurante" data-i18n="explora.filters.restaurante">🍽 Restaurantes</button>
+        <button class="filter-btn active" data-filter="actividad" data-i18n="explora.filters.actividad">🎭 Actividades</button>
+        <button class="filter-btn" data-filter="parque" data-i18n="explora.filters.parque">🌲 Parques</button>
+      </div>
+      <!-- Grid de Lugares -->
+      <div class="lugares-grid">
+        <!-- Lugar: Toucan Rescue Ranch -->
+        <div class="lugar-card" data-category="actividad">
+          <div class="explora-logo">
+            <img src="assets/img/actividades_cercanas/ToucanRescueRanch.png" alt="Toucan Rescue Ranch">
+          </div>
+          <div class="lugar-content">
+            <h3 data-i18n="explora.lugares.toucan.title">Toucan Rescue Ranch</h3>
+            <p data-i18n="explora.lugares.toucan.description">Refugio de animales.</p>
+            <a href="#" class="btn btn-primary" data-i18n="explora.lugares.toucan.link">Ver más</a>
+          </div>
+        </div>
+
+        <!-- Lugar: Trattoria Il Gusto Toscano -->
+        <div class="lugar-card" data-category="restaurante">
+          <div class="explora-logo">
+            <img src="assets/img/actividades_cercanas/Trattoria_Il_Gusto_ Toscano.webp" alt="Trattoria Il Gusto Toscano">
+          </div>
+          <div class="lugar-content">
+            <h3 data-i18n="explora.lugares.trattoria.title">Trattoria Il Gusto Toscano</h3>
+            <p data-i18n="explora.lugares.trattoria.description">Restaurante Cercano.</p>
+            <a href="#" class="btn btn-primary" data-i18n="explora.lugares.trattoria.link">Ver más</a>
+          </div>
+        </div>
+
+        <!-- Lugar: Riverside -->
+        <div class="lugar-card" data-category="restaurante">
+          <div class="explora-logo">
+            <img src="assets/img/actividades_cercanas/Riverside.png" alt="Riverside">
+          </div>
+          <div class="lugar-content">
+            <h3 data-i18n="explora.lugares.riverside.title">Riverside</h3>
+            <p data-i18n="explora.lugares.riverside.description">Restaurante Cercano.</p>
+            <a href="#" class="btn btn-primary" data-i18n="explora.lugares.riverside.link">Ver más</a>
+          </div>
+        </div>
+
+        <!-- Lugar: La selva -->
+        <div class="lugar-card" data-category="restaurante">
+          <div class="explora-logo">
+            <img src="assets/img/actividades_cercanas/laselva.png" alt="La selva">
+          </div>
+          <div class="lugar-content">
+            <h3 data-i18n="explora.lugares.laSelva.title">La selva</h3>
+            <p data-i18n="explora.lugares.laSelva.description">Restaurante Cercano.</p>
+            <a href="#" class="btn btn-primary" data-i18n="explora.lugares.laSelva.link">Ver más</a>
+          </div>
+        </div>
+
+        <!-- Lugar: Las Juntas -->
+        <div class="lugar-card" data-category="restaurante">
+          <div class="explora-logo">
+            <img src="assets/img/actividades_cercanas/lasjuntas.png" alt="Las Juntas">
+          </div>
+          <div class="lugar-content">
+            <h3 data-i18n="explora.lugares.lasJuntas.title">Las Juntas</h3>
+            <p data-i18n="explora.lugares.lasJuntas.description">Restaurante Cercano.</p>
+            <a href="#" class="btn btn-primary" data-i18n="explora.lugares.lasJuntas.link">Ver más</a>
+          </div>
+        </div>
+
+        <!-- Lugar: Las tranqueras -->
+        <div class="lugar-card" data-category="actividad">
+          <div class="explora-logo">
+            <img src="assets/img/actividades_cercanas/tranqueras.png" alt="Las tranqueras">
+          </div>
+          <div class="lugar-content">
+            <h3 data-i18n="explora.lugares.lasTranqueras.title">Las tranqueras</h3>
+            <p data-i18n="explora.lugares.lasTranqueras.description">Balneario.</p>
+            <a href="#" class="btn btn-primary" data-i18n="explora.lugares.lasTranqueras.link">Ver más</a>
+          </div>
+        </div>
+
+        <!-- Lugar: Bosque Caricias los Leones -->
+        <div class="lugar-card" data-category="parque">
+          <div class="explora-logo">
+            <img src="assets/img/actividades_cercanas/BosqueCaricias.webp" alt="Bosque Caricias los Leones">
+          </div>
+          <div class="lugar-content">
+            <h3 data-i18n="explora.lugares.bosque.title">Bosque Caricias los Leones</h3>
+            <p data-i18n="explora.lugares.bosque.description">Explora la biodiversidad de la región.</p>
+            <a href="#" class="btn btn-primary" data-i18n="explora.lugares.bosque.link">Ver más</a>
+          </div>
+        </div>
+        
+        <!-- Lugar: Chocolate Sibö -->
+        <div class="lugar-card" data-category="restaurante">
+          <div class="explora-logo">
+            <img src="assets/img/actividades_cercanas/sibo.png" alt="Chocolate Sibö">
+          </div>
+          <div class="lugar-content">
+            <h3 data-i18n="explora.lugares.chocolate.title">Chocolate Sibö</h3>
+            <p data-i18n="explora.lugares.chocolate.description">Chocolatería - Tour de Chocolate.</p>
+            <a href="#" class="btn btn-primary" data-i18n="explora.lugares.chocolate.link">Ver más</a>
+          </div>
+        </div>
+
+        <!-- Lugar: La Paz Waterfall Gardens -->
+        <div class="lugar-card" data-category="actividad">
+          <div class="explora-logo">
+            <img src="assets/img/actividades_cercanas/catarata_la_paz.png" alt="La Paz Waterfall Gardens">
+          </div>
+          <div class="lugar-content">
+            <h3 data-i18n="explora.lugares.laPaz.title">La Paz Waterfall Gardens</h3>
+            <p data-i18n="explora.lugares.laPaz.description">Catarata sobre carretera.</p>
+            <a href="#" class="btn btn-primary" data-i18n="explora.lugares.laPaz.link">Ver más</a>
+          </div>
+        </div>
+
+        <!-- Lugar: Parque Nacional Brauilio Carrillo -->
+        <div class="lugar-card" data-category="parque">
+          <div class="explora-logo">
+            <img src="assets/img/actividades_cercanas/braulio_Carrillo.png" alt="Parque Nacional Brauilio Carrillo">
+          </div>
+          <div class="lugar-content">
+            <h3 data-i18n="explora.lugares.braulio.title">Parque Nacional Brauilio Carrillo</h3>
+            <p data-i18n="explora.lugares.braulio.description">Parque Nacional.</p>
+            <a href="#" class="btn btn-primary" data-i18n="explora.lugares.braulio.link">Ver más</a>
+          </div>
+        </div>
+
+        <!-- Lugar: Monte de la Cruz -->
+        <div class="lugar-card" data-category="actividad">
+          <div class="explora-logo">
+            <img src="assets/img/actividades_cercanas/monte_de_la_cruz.png" alt="Monte de la Cruz">
+          </div>
+          <div class="lugar-content">
+            <h3 data-i18n="explora.lugares.monte.title">Monte de la Cruz</h3>
+            <p data-i18n="explora.lugares.monte.description">Centro Recreativo.</p>
+            <a href="#" class="btn btn-primary" data-i18n="explora.lugares.monte.link">Ver más</a>
+          </div>
+        </div>   
+      </div>
+    </div>
+  </section>
+  <!-- FIN SECCIÓN EXPLORA -->
+
+  <!-- SECCIÓN GALERÍA -->
+  <section id="galeria" class="galeria-section" data-aos="fade-up">
+    <div class="container text-center">
+      <h2 class="section-title" data-i18n="galeria.title">Galería de Nuestra Cabaña</h2>
+      <p class="section-description" data-i18n="galeria.description">
+        Explora nuestra galería y sumérgete en la belleza y confort que ofrecemos.
+      </p>
+    </div>
+    <div class="galeria-grid">
+      <!-- Ítems de la galería (imágenes) -->
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_5022.jpg" alt="Vista de la Cabaña" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_5156.jpg" alt="Restaurante elegante" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_5172.jpg" alt="Spa y relajación" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_5218.jpg" alt="Vista de la Cabaña" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_5289.jpg" alt="Habitación de lujo" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_7968.jpg" alt="Piscina panorámica" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_8017.jpg" alt="Restaurante elegante" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_8024.jpg" alt="Spa y relajación" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_8137.jpg" alt="Vista de la Cabaña" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_8161.jpg" alt="Habitación de lujo" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_5143.jpg" alt="Piscina panorámica" onclick="openLightbox(this)">
+      </div>  
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_8250.jpg" alt="Piscina panorámica" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_8268.jpg" alt="Restaurante elegante" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_8344.jpg" alt="Spa y relajación" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_8400.jpg" alt="Vista de la Cabaña" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_8422.jpg" alt="Habitación de lujo" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_5090.jpg" alt="Habitación de lujo" onclick="openLightbox(this)">
+      </div>
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_8466.jpg" alt="Piscina panorámica" onclick="openLightbox(this)">
+      </div>           
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_5147.jpg" alt="Piscina panorámica" onclick="openLightbox(this)">
+      </div>    
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_8085.jpg" alt="Piscina panorámica" onclick="openLightbox(this)">
+      </div>    
+      <div class="galeria-item">
+        <img src="assets/img/galeria/DSC_8249.jpg" alt="Piscina panorámica" onclick="openLightbox(this)">
+      </div>    
+    </div>
+  </section>
+  <!-- FIN SECCIÓN GALERÍA -->
+
+  <!-- SECCIÓN UBICACIÓN Y CONTACTO -->
+  <section id="ubicacion" data-aos="fade-up">
+    <div class="spacer" style="padding: 20px;background-color: #f5f1eb;"></div>
+    <div class="titulo" data-i18n="ubicacion.title">UBICACIÓN</div>
+    <div class="spacer" style="padding: 20px;background-color: #f5f1eb;"></div>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d909.5073916373624!2d-84.01770128341859!3d10.023839474265458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e5fe2d9cf213%3A0xf28514f8187c3e0e!2zQ2FiYcOxYXMgQ29saWJyw60!5e1!3m2!1sen!2scr!4v1739162337499!5m2!1sen!2scr" 
+      style="border:0; width: 100%; height: 290px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <div class="spacer" style="padding: 25px;background-color: #f5f1eb;"></div>
+    <div class="container d-flex justify-content-start">
+      <div class="row">
+        <div class="col">
+          <div class="contenido">
+            <div class="texto">
+              <p data-i18n="ubicacion.description">
+                Estamos ubicados en Santa Elena, San Isidro de Heredia, Costa Rica. A 300 metros de la plaza de deportes, cerca de ruta 32 carretera a Limón.
+              </p>
+              <p data-i18n="ubicacion.schedule">
+                Horario: Entrada regular a partir de las 4pm y salida a las 11:00am del día siguiente. Consulte disponibilidad para horarios especiales.
+              </p>
+            </div>
+          </div>
+          <div class="botones">
+            <a href="https://ul.waze.com/ul?venue_id=180879460.1808663530.7942460&overview=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank">
+              <img src="assets/img/icons/waze-icon.png" alt="Waze">
+            </a>
+            <a href="https://maps.app.goo.gl/c9wtDBLPPv6H4q9i7" target="_blank">
+              <img src="assets/img/icons/google-maps.png" alt="Google Maps">
+            </a>
+          </div>
+        </div>
+        <!-- Sección de Contacto -->
+        <div class="col" id="contacto">
+          <div class="formulario">
+            <h3 data-i18n="ubicacion.contactForm.title">ENVÍENOS SU MENSAJE</h3>
+            <form>
+              <input type="text" placeholder="Nombre *" required data-i18n="[placeholder]ubicacion.contactForm.namePlaceholder">
+              <input type="email" placeholder="Correo electrónico *" required data-i18n="[placeholder]ubicacion.contactForm.emailPlaceholder">
+              <input type="text" placeholder="Teléfono" data-i18n="[placeholder]ubicacion.contactForm.phonePlaceholder">
+              <textarea placeholder="Mensaje" data-i18n="[placeholder]ubicacion.contactForm.messagePlaceholder"></textarea>
+              <button type="submit" data-i18n="ubicacion.contactForm.button">ENVIAR</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spacer" style="padding: 20px;background-color: #f5f1eb;"></div>
+  </section>
+  <!-- FIN SECCIÓN UBICACIÓN Y CONTACTO -->
+
+  <!-- Espaciador -->
+  <div class="spacer" style="padding: 50px;background-color: #ffffff;"></div>
+
+  <!-- SECCIÓN RESERVA -->
+  <section id="reserva" class="reserva" data-aos="fade-up">
+    <h2 data-i18n="reserva.title">RESERVAR</h2>
+    <p data-i18n="reserva.description1">
+      Para reservar: llame al <strong data-i18n="reserva.description1.number">2268-4488</strong> o escriba al <strong data-i18n="reserva.description1.whatsapp">WhatsApp +(506) 8836-9997</strong> <i class="fab fa-whatsapp"></i>
+    </p>
+    <p data-i18n="reserva.description2">Se verifica la disponibilidad de la habitación.</p>
+    <p data-i18n="reserva.description3">
+      Se procede a enviar detalle de reserva, <strong data-i18n="reserva.description1.sinpe">Sinpe Móvil</strong> – Cuentas bancarias para el depósito de mínimo la mitad y el resto al llegar.
+    </p>
+    <button class="btn-reservar" onclick="window.open('https://api.whatsapp.com/send?phone=%2B50688369997&text=Estoy%20interesado%20en%20alquilar%20una%20habitación', '_blank')" data-i18n="reserva.button">Reservar</button>
+    <p class="aviso" data-i18n="reserva.notice">
+      <i class="fa-solid fa-triangle-exclamation"></i> En caso de exceder la hora de salida, se cobrará 5.000 colones por cada hora de retraso. Multa por fumar dentro de la habitación: 10.000 colones.
+    </p>
+  </section>
+  <!-- FIN SECCIÓN RESERVA -->
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- Ubicación -->
+        <div class="footer-section about">
+          <h2 data-i18n="footer.location.title">Ubicación</h2>
+          <p data-i18n="footer.location.description">
+            Santa Elena, San Isidro de Heredia, Costa Rica. A 300 metros de la plaza de deportes, cerca de ruta 32 carretera a Limón.
+          </p>
+        </div>
+        <!-- Enlaces Rápidos -->
+        <div class="footer-section links">
+          <h2 data-i18n="footer.links.title">Enlaces Rápidos</h2>
+          <ul>
+            <li><a href="#slides" data-i18n="footer.links.home">Inicio</a></li>
+            <li><a href="#concepto" data-i18n="footer.links.concept">Concepto</a></li>
+            <li><a href="#habitaciones" data-i18n="footer.links.rooms">Habitaciones</a></li>
+            <li><a href="#explora" data-i18n="footer.links.activities">Actividades</a></li>
+            <li><a href="#galeria" data-i18n="footer.links.gallery">Galería</a></li>
+            <li><a href="#ubicacion" data-i18n="footer.links.location">Ubicación</a></li>
+            <li><a href="#ubicacion" data-i18n="footer.links.contact">Contacto</a></li>
+          </ul>
+        </div>
+        <!-- Redes Sociales -->
+        <div class="footer-section social">
+          <h2 data-i18n="footer.social.title">Síguenos</h2>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/CabanasColibri" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/cabcolibri/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=%2B50688369997&text=Estoy%20interesado%20en%20alquilar%20una%20habitación" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">            
+      <p data-i18n="footer.copyright">
+        &copy; 2025 colibricr.com Todos los derechos reservados. Desarrollado por <a href="https://www.wincodecr.com/" target="_blank">Wincodecr</a>
+      </p>
+    </div>
+  </footer>
+  <!-- FIN FOOTER -->
+
+  <!-- SCRIPTS -->
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Archivo de JavaScript personalizado -->
+  <script src="script.js"></script>
+  <!-- AOS JS (Animate On Scroll) -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    // Inicialización de AOS
+    AOS.init();
+
+    // Slider personalizado
+    document.addEventListener("DOMContentLoaded", function () {
+      let slides = document.querySelectorAll(".slides-container li");
+      let indicatorsContainer = document.querySelector(".slide-indicators");
+      let currentSlide = 0;
+      let slideInterval = setInterval(nextSlide, 40000);
+
+      slides.forEach((_, index) => {
+        let indicator = document.createElement("span");
+        indicator.addEventListener("click", () => {
+          currentSlide = index;
+          showSlide(currentSlide);
+          resetInterval();
+        });
+        indicatorsContainer.appendChild(indicator);
+      });
+
+      function showSlide(index) {
+        slides.forEach(slide => slide.style.opacity = "0");
+        slides[index].style.opacity = "1";
+        updateIndicators(index);
+      }
+
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+      }
+
+      function prevSlide() {
+        currentSlide = (currentSlide === 0) ? slides.length - 1 : currentSlide - 1;
+        showSlide(currentSlide);
+      }
+
+      function resetInterval() {
+        clearInterval(slideInterval);
+        slideInterval = setInterval(nextSlide, 40000);
+      }
+
+      function updateIndicators(index) {
+        let indicators = document.querySelectorAll(".slide-indicators span");
+        indicators.forEach(ind => ind.classList.remove("active"));
+        indicators[index].classList.add("active");
+      }
+
+      document.querySelector(".prev").addEventListener("click", function (e) {
+        e.preventDefault();
+        prevSlide();
+        resetInterval();
+      });
+
+      document.querySelector(".next").addEventListener("click", function (e) {
+        e.preventDefault();
+        nextSlide();
+        resetInterval();
+      });
+
+      showSlide(currentSlide);
+    });
+
+    // Actualización de imágenes según el tamaño de pantalla
+    document.addEventListener("DOMContentLoaded", function () {
+      function actualizarImagenes() {
+        let isMobile = window.innerWidth <= 768;
+        document.querySelectorAll(".habitacion-bg").forEach(function (elemento) {
+          let imgDesktop = elemento.getAttribute("data-bg-desktop");
+          let imgMobile = elemento.getAttribute("data-bg-mobile");
+          elemento.style.backgroundImage = `url(${isMobile ? imgMobile : imgDesktop})`;
+        });
+      }
+      actualizarImagenes();
+      window.addEventListener("resize", actualizarImagenes);
+    });
+
+    // Filtro de tarjetas en la sección "Explora"
+    document.addEventListener("DOMContentLoaded", function () {
+      let cards = document.querySelectorAll(".lugar-card");
+      cards.forEach(card => {
+        if (card.getAttribute("data-category") !== "actividad") {
+          card.style.display = "none";
+        }
+      });
+      let buttons = document.querySelectorAll(".filter-btn");
+      buttons.forEach(button => {
+        button.addEventListener("click", function () {
+          let filter = this.getAttribute("data-filter");
+          buttons.forEach(btn => btn.classList.remove("active"));
+          this.classList.add("active");
+          cards.forEach(card => {
+            if (filter === "all" || card.getAttribute("data-category") === filter) {
+              card.style.display = "block";
+            } else {
+              card.style.display = "none";
+            }
+          });
+        });
+      });
+    });
+
+    // Funciones para abrir y cerrar el lightbox de la galería
+    function openLightbox(img) {
+      document.getElementById('lightbox').style.display = 'flex';
+      document.getElementById('lightbox-img').src = img.src;
+    }
+    function closeLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+
+    // Botón "Ir arriba"
+    window.addEventListener("scroll", function () {
+      let scrollTopBtn = document.getElementById("scrollTopBtn");
+      if (window.scrollY > 300) {
+          scrollTopBtn.style.display = "block";
+      } else {
+          scrollTopBtn.style.display = "none";
+      }
+    });
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  </script>
+
+  <!-- Inicialización de i18next y definiciones de traducciones -->
+  <script>
+
+    const resources = {
+      en: {
+        translation: {
+          page: { title: "Colibri Cabins - Mountain Retreat" },
+          topbar_reservar: "RESERVE",
+          topbar_contactenos: "CONTACT US",
+          topbar_maps: "MAPS",
+          navbar_inicio: "HOME",
+          navbar_concepto: "CONCEPT",
+          navbar_habitaciones: "ROOMS",
+          navbar_actividades: "ACTIVITIES",
+          navbar_galeria: "GALLERY",
+          navbar_ubicacion: "LOCATION",
+          navbar_contacto: "CONTACT",
+          slider: {
+            title: "SWISS CABIN",
+            subtitle: "with 5 rooms – Mountain style, Costa Rica",
+            description: "Discover our cabins for couples or groups with ideal spaces to relax and connect with nature, only 15 min from San José.",
+            reserve: "Reserve"
+          },
+          concepto: {
+            title: "CONCEPT (SERVICES AND AMENITIES)",
+            description: "Construction of 4 rooms inside a chalet inspired by Switzerland with independent rooms. Additionally, 1 external room surrounded by nature, flora, and fauna of San Isidro de Heredia and the slopes of Zurquí.",
+            amenities: {
+              amenity1: "Construction of 4 rooms inside a Swiss-inspired chalet. Includes parking.",
+              amenity2: "1 separate room from the chalet with an ideal space for a family gathering or group. (Room #5) Parking available.",
+              amenity3: "100m long trail.",
+              amenity4: "3 rooms feature a spacious jacuzzi.",
+              amenity5: "Breakfast served in the room.",
+              amenity6: "Includes internet and TV service."
+            }
+          },
+          habitaciones: {
+            title: "Our Rooms",
+            description: "Discover our rooms designed for your comfort and relaxation. Each offers a unique experience in a natural setting.",
+            room1: {
+              title: "Room #1 - ZURICH",
+              description: "A spacious room with mountain view and private jacuzzi.",
+              link: "View Room"
+            },
+            room2: {
+              title: "Room #2 - GENÈVE",
+              description: "A spacious room with mountain view.",
+              link: "View Room"
+            },
+            room3: {
+              title: "Room #3 - BASEL",
+              description: "A spacious room with mountain view.",
+              link: "View Room"
+            },
+            room4: {
+              title: "Room #4 - BERN",
+              description: "A spacious room with mountain view.",
+              link: "View Room"
+            },
+            room5: {
+              title: "Room #5 - LUZERN",
+              description: "A spacious room with mountain view.",
+              link: "View Room"
+            }
+          },
+          explora: {
+            title: "Explore and Enjoy",
+            description: "Discover restaurants, activities, and tourist spots near our cabin.",
+            filters: {
+              all: "All",
+              restaurante: "🍽 Restaurants",
+              actividad: "🎭 Activities",
+              parque: "🌲 Parks"
+            },
+            lugares: {
+              toucan: {
+                title: "Toucan Rescue Ranch",
+                description: "Animal shelter.",
+                link: "View More"
+              },
+              trattoria: {
+                title: "Trattoria Il Gusto Toscano",
+                description: "Nearby Restaurant.",
+                link: "View More"
+              },
+              riverside: {
+                title: "Riverside",
+                description: "Nearby Restaurant.",
+                link: "View More"
+              },
+              laSelva: {
+                title: "La selva",
+                description: "Nearby Restaurant.",
+                link: "View More"
+              },
+              lasJuntas: {
+                title: "Las Juntas",
+                description: "Nearby Restaurant.",
+                link: "View More"
+              },
+              lasTranqueras: {
+                title: "Las tranqueras",
+                description: "Beach resort.",
+                link: "View More"
+              },
+              bosque: {
+                title: "Bosque Caricias los Leones",
+                description: "Explore the region's biodiversity.",
+                link: "View More"
+              },
+              chocolate: {
+                title: "Chocolate Sibö",
+                description: "Chocolatería - Chocolate Tour.",
+                link: "View More"
+              },
+              laPaz: {
+                title: "La Paz Waterfall Gardens",
+                description: "Waterfall on the road.",
+                link: "View More"
+              },
+              braulio: {
+                title: "Braulio Carrillo National Park",
+                description: "National Park.",
+                link: "View More"
+              },
+              monte: {
+                title: "Monte de la Cruz",
+                description: "Recreational Center.",
+                link: "View More"
+              }
+            }
+          },
+          galeria: {
+            title: "Gallery of Our Cabin",
+            description: "Explore our gallery and immerse yourself in the beauty and comfort we offer."
+          },
+          ubicacion: {
+            title: "LOCATION",
+            description: "We are located in Santa Elena, San Isidro de Heredia, Costa Rica. 300 meters from the sports plaza, near route 32 toward Limón. Visit us and experience our cabin for a time of relaxation and peace in nature.",
+            schedule: "Schedule: Regular check-in from 4pm and check-out at 11:00am the next day. Please check availability for special hours.",
+            contactForm: {
+              title: "SEND US YOUR MESSAGE",
+              namePlaceholder: "Name *",
+              emailPlaceholder: "Email *",
+              phonePlaceholder: "Phone",
+              messagePlaceholder: "Message",
+              button: "SEND"
+            }
+          },
+          reserva: {
+            title: "RESERVE",
+            description1: "To reserve: call <strong>2268-4488</strong> or message <strong>WhatsApp +(506) 8836-9997</strong> <i class='fab fa-whatsapp'></i>",            
+            description2: "Room availability is subject to confirmation.",
+            description3: "Reservation details will be sent via <strong>Sinpe Móvil</strong> – bank accounts for deposit of at least half, and the remainder upon arrival.",
+            button: "Reserve",
+            notice: "In case of late check-out, a fee of 5,000 colones per hour will be charged. Fine for smoking in the room: 10,000 colones."
+          },
+          footer: {
+            location: {
+              title: "Location",
+              description: "Santa Elena, San Isidro de Heredia, Costa Rica. 300 meters from the sports plaza, near route 32 toward Limón."
+            },
+            links: {
+              title: "Quick Links",
+              home: "Home",
+              concept: "Concept",
+              rooms: "Rooms",
+              activities: "Activities",
+              gallery: "Gallery",
+              location: "Location",
+              contact: "Contact"
+            },
+            social: {
+              title: "Follow us"
+            },
+            copyright: "&copy; 2025 colibricr.com All rights reserved. Developed by <a href='https://www.wincodecr.com/' target='_blank'>Wincodecr</a>"
+          }
+        }
+      },
+      es: {
+        translation: {
+          page: { title: "Cabañas Colibrí - De Montaña" },
+          topbar_reservar: "RESERVAR",
+          topbar_contactenos: "CONTÁCTENOS",
+          topbar_maps: "MAPS",
+          navbar_inicio: "INICIO",
+          navbar_concepto: "CONCEPTO",
+          navbar_habitaciones: "HABITACIONES",
+          navbar_actividades: "ACTIVIDADES",
+          navbar_galeria: "GALERÍA",
+          navbar_ubicacion: "UBICACIÓN",
+          navbar_contacto: "CONTACTO",
+          slider: {
+            title: "CABAÑA SUIZA",
+            subtitle: "con 5 Habitaciones – de Montaña, Costa Rica",
+            description: "Descubre nuestras cabañas para parejas o grupos con espacios ideales para relajarte y conectar con la naturaleza, a solo 15 min de San José.",
+            reserve: "Reservar"
+          },
+          concepto: {
+            title: "CONCEPTO (SERVICIOS Y AMENIDADES)",
+            description: "Construcción de 4 habitaciones dentro de chalet inspirado en Suiza con habitaciones independientes. Además, 1 habitación externa rodeada de naturaleza, flora y fauna de San Isidro de Heredia y las faldas del Zurquí.",
+            amenities: {
+              amenity1: "Construcción de 4 habitaciones dentro de chalet inspirado en Suiza. Incluye parqueo.",
+              amenity2: "1 Habitación separada del chalet con espacio ideal para reunión familiar o grupo. (Habitación #5) Parqueo.",
+              amenity3: "Sendero de 100m de largo.",
+              amenity4: "3 habitaciones cuentan con amplio jacuzzi.",
+              amenity5: "Desayuno servido a la habitación.",
+              amenity6: "Incluye servicio de internet y TV."
+            }
+          },
+          habitaciones: {
+            title: "Nuestras Habitaciones",
+            description: "Descubre nuestras habitaciones diseñadas para tu confort y relajación. Cada una ofrece una experiencia única en un entorno natural.",
+            room1: {
+              title: "Habitación #1 - ZÚRICH",
+              description: "Una habitación espaciosa con vista a la montaña y jacuzzi privado.",
+              link: "Ver Habitación"
+            },
+            room2: {
+              title: "Habitación #2 - GINEBRA (GENÈVE)",
+              description: "Una habitación espaciosa con vista a la montaña.",
+              link: "Ver Habitación"
+            },
+            room3: {
+              title: "Habitación #3 - BASILEA (BASEL)",
+              description: "Una habitación espaciosa con vista a la montaña.",
+              link: "Ver Habitación"
+            },
+            room4: {
+              title: "Habitación #4 - BERNA",
+              description: "Una habitación espaciosa con vista a la montaña.",
+              link: "Ver Habitación"
+            },
+            room5: {
+              title: "Habitación #5 - LUCERNA (LUZERN)",
+              description: "Una habitación espaciosa con vista a la montaña.",
+              link: "Ver Habitación"
+            }
+          },
+          explora: {
+            title: "Explora y Disfruta",
+            description: "Descubre restaurantes, actividades y lugares turísticos cerca de nuestra cabaña.",
+            filters: {
+              all: "Todos",
+              restaurante: "🍽 Restaurantes",
+              actividad: "🎭 Actividades",
+              parque: "🌲 Parques"
+            },
+            lugares: {
+              toucan: {
+                title: "Toucan Rescue Ranch",
+                description: "Refugio de animales.",
+                link: "Ver más"
+              },
+              trattoria: {
+                title: "Trattoria Il Gusto Toscano",
+                description: "Restaurante Cercano.",
+                link: "Ver más"
+              },
+              riverside: {
+                title: "Riverside",
+                description: "Restaurante Cercano.",
+                link: "Ver más"
+              },
+              laSelva: {
+                title: "La selva",
+                description: "Restaurante Cercano.",
+                link: "Ver más"
+              },
+              lasJuntas: {
+                title: "Las Juntas",
+                description: "Restaurante Cercano.",
+                link: "Ver más"
+              },
+              lasTranqueras: {
+                title: "Las tranqueras",
+                description: "Balneario.",
+                link: "Ver más"
+              },
+              bosque: {
+                title: "Bosque Caricias los Leones",
+                description: "Explora la biodiversidad de la región.",
+                link: "Ver más"
+              },
+              chocolate: {
+                title: "Chocolate Sibö",
+                description: "Chocolatería - Tour de Chocolate.",
+                link: "Ver más"
+              },
+              laPaz: {
+                title: "La Paz Waterfall Gardens",
+                description: "Catarata sobre carretera.",
+                link: "Ver más"
+              },
+              braulio: {
+                title: "Parque Nacional Brauilio Carrillo",
+                description: "Parque Nacional.",
+                link: "Ver más"
+              },
+              monte: {
+                title: "Monte de la Cruz",
+                description: "Centro Recreativo.",
+                link: "Ver más"
+              }
+            }
+          },
+          galeria: {
+            title: "Galería de Nuestra Cabaña",
+            description: "Explora nuestra galería y sumérgete en la belleza y confort que ofrecemos."
+          },
+          ubicacion: {
+            title: "UBICACIÓN",
+            description: "Estamos ubicados en Santa Elena, San Isidro de Heredia, Costa Rica. A 300 metros de la plaza de deportes, cerca de ruta 32 carretera a Limón. Visítenos y conozca nuestra cabaña para pasar un tiempo de relajación y paz en medio de la naturaleza.",
+            schedule: "Horario: Entrada regular a partir de las 4pm y salida a las 11:00am del día siguiente. Consulte disponibilidad para horarios especiales.",
+            contactForm: {
+              title: "ENVÍENOS SU MENSAJE",
+              namePlaceholder: "Nombre *",
+              emailPlaceholder: "Correo electrónico *",
+              phonePlaceholder: "Teléfono",
+              messagePlaceholder: "Mensaje",
+              button: "ENVIAR"
+            }
+          },
+          reserva: {
+            title: "RESERVAR",
+            description1: "Para reservar: llame al <strong>2268-4488</strong> o escriba al <strong>WhatsApp +(506) 8836-9997</strong> <i class='fab fa-whatsapp'></i>",
+            description2: "Se verifica la disponibilidad de la habitación.",
+            description3: "Se procede a enviar detalle de reserva, <strong>Sinpe Móvil</strong> – Cuentas bancarias para el depósito de mínimo la mitad y el resto al llegar.",
+            button: "Reservar",
+            notice: "En caso de exceder la hora de salida, se cobrará 5.000 colones por cada hora de retraso. Multa por fumar dentro de la habitación: 10.000 colones."
+          },
+          footer: {
+            location: {
+              title: "Ubicación",
+              description: "Santa Elena, San Isidro de Heredia, Costa Rica. A 300 metros de la plaza de deportes, cerca de ruta 32 carretera a Limón."
+            },
+            links: {
+              title: "Enlaces Rápidos",
+              home: "Inicio",
+              concept: "Concepto",
+              rooms: "Habitaciones",
+              activities: "Actividades",
+              gallery: "Galería",
+              location: "Ubicación",
+              contact: "Contacto"
+            },
+            social: {
+              title: "Síguenos"
+            },
+            copyright: "&copy; 2025 colibricr.com Todos los derechos reservados. Desarrollado por <a href='https://www.wincodecr.com/' target='_blank'>Wincodecr</a>"
+          }
+        }
+      },
+      de: {
+        translation: {
+          page: { title: "Colibri Hütten - Bergstil" },
+          topbar_reservar: "RESERVIEREN",
+          topbar_contactenos: "KONTAKTIEREN SIE UNS",
+          topbar_maps: "KARTEN",
+          navbar_inicio: "STARTSEITE",
+          navbar_concepto: "KONZEPT",
+          navbar_habitaciones: "ZIMMER",
+          navbar_actividades: "AKTIVITÄTEN",
+          navbar_galeria: "GALERIE",
+          navbar_ubicacion: "STANDORT",
+          navbar_contacto: "KONTAKT",
+          slider: {
+            title: "SCHWEIZER HÜTTE",
+            subtitle: "mit 5 Zimmern – im Bergstil, Costa Rica",
+            description: "Entdecken Sie unsere Hütten für Paare oder Gruppen mit idealen Räumen zum Entspannen und Naturverbundenheit, nur 15 Minuten von San José entfernt.",
+            reserve: "Reservieren"
+          },
+          concepto: {
+            title: "KONZEPT (DIENSTLEISTUNGEN UND ANNEHMLICHKEITEN)",
+            description: "Bau von 4 Zimmern innerhalb eines Chalets, inspiriert von der Schweiz, mit unabhängigen Zimmern. Zusätzlich, 1 externes Zimmer, umgeben von Natur, Flora und Fauna in San Isidro de Heredia und den Hängen von Zurquí.",
+            amenities: {
+              amenity1: "Bau von 4 Zimmern innerhalb eines von der Schweiz inspirierten Chalets. Parkplatz inklusive.",
+              amenity2: "1 separates Zimmer vom Chalet mit idealem Platz für ein Familientreffen oder Gruppe. (Zimmer #5) Parkplatz vorhanden.",
+              amenity3: "100 Meter langer Pfad.",
+              amenity4: "3 Zimmer verfügen über einen großzügigen Whirlpool.",
+              amenity5: "Frühstück wird im Zimmer serviert.",
+              amenity6: "Inklusive Internet- und TV-Service."
+            }
+          },
+          habitaciones: {
+            title: "Unsere Zimmer",
+            description: "Entdecken Sie unsere Zimmer, die für Ihren Komfort und Ihre Entspannung gestaltet wurden. Jedes bietet ein einzigartiges Erlebnis in einer natürlichen Umgebung.",
+            room1: {
+              title: "Zimmer #1 - ZÜRICH",
+              description: "Ein geräumiges Zimmer mit Bergblick und privatem Whirlpool.",
+              link: "Zimmer ansehen"
+            },
+            room2: {
+              title: "Zimmer #2 - GENÈVE",
+              description: "Ein geräumiges Zimmer mit Bergblick.",
+              link: "Zimmer ansehen"
+            },
+            room3: {
+              title: "Zimmer #3 - BASEL",
+              description: "Ein geräumiges Zimmer mit Bergblick.",
+              link: "Zimmer ansehen"
+            },
+            room4: {
+              title: "Zimmer #4 - BERN",
+              description: "Ein geräumiges Zimmer mit Bergblick.",
+              link: "Zimmer ansehen"
+            },
+            room5: {
+              title: "Zimmer #5 - LUZERN",
+              description: "Ein geräumiges Zimmer mit Bergblick.",
+              link: "Zimmer ansehen"
+            }
+          },
+          explora: {
+            title: "Entdecken und Genießen",
+            description: "Entdecken Sie Restaurants, Aktivitäten und touristische Orte in der Nähe unserer Hütte.",
+            filters: {
+              all: "Alle",
+              restaurante: "🍽 Restaurants",
+              actividad: "🎭 Aktivitäten",
+              parque: "🌲 Parks"
+            },
+            lugares: {
+              toucan: {
+                title: "Toucan Rescue Ranch",
+                description: "Tierschutzheim.",
+                link: "Mehr erfahren"
+              },
+              trattoria: {
+                title: "Trattoria Il Gusto Toscano",
+                description: "Nahegelegenes Restaurant.",
+                link: "Mehr erfahren"
+              },
+              riverside: {
+                title: "Riverside",
+                description: "Nahegelegenes Restaurant.",
+                link: "Mehr erfahren"
+              },
+              laSelva: {
+                title: "La selva",
+                description: "Nahegelegenes Restaurant.",
+                link: "Mehr erfahren"
+              },
+              lasJuntas: {
+                title: "Las Juntas",
+                description: "Nahegelegenes Restaurant.",
+                link: "Mehr erfahren"
+              },
+              lasTranqueras: {
+                title: "Las tranqueras",
+                description: "Erholungsbad.",
+                link: "Mehr erfahren"
+              },
+              bosque: {
+                title: "Bosque Caricias los Leones",
+                description: "Erkunden Sie die Biodiversität der Region.",
+                link: "Mehr erfahren"
+              },
+              chocolate: {
+                title: "Chocolate Sibö",
+                description: "Schokoladenladen - Schokoladentour.",
+                link: "Mehr erfahren"
+              },
+              laPaz: {
+                title: "La Paz Waterfall Gardens",
+                description: "Wasserfall an der Straße.",
+                link: "Mehr erfahren"
+              },
+              braulio: {
+                title: "Braulio Carrillo Nationalpark",
+                description: "Nationalpark.",
+                link: "Mehr erfahren"
+              },
+              monte: {
+                title: "Monte de la Cruz",
+                description: "Freizeitzentrum.",
+                link: "Mehr erfahren"
+              }
+            }
+          },
+          galeria: {
+            title: "Galerie unserer Hütte",
+            description: "Durchstöbern Sie unsere Galerie und tauchen Sie ein in die Schönheit und den Komfort, den wir bieten."
+          },
+          ubicacion: {
+            title: "STANDORT",
+            description: "Wir befinden uns in Santa Elena, San Isidro de Heredia, Costa Rica. 300 Meter vom Sportplatz entfernt, in der Nähe der Route 32 in Richtung Limón. Besuchen Sie uns und erleben Sie unsere Hütte für eine Zeit der Entspannung und des Friedens inmitten der Natur.",
+            schedule: "Öffnungszeiten: Check-in ab 16 Uhr und Check-out um 11:00 Uhr am nächsten Tag. Bitte prüfen Sie die Verfügbarkeit für spezielle Zeiten.",
+            contactForm: {
+              title: "SENDEN SIE UNS IHRE NACHRICHT",
+              namePlaceholder: "Name *",
+              emailPlaceholder: "E-Mail *",
+              phonePlaceholder: "Telefon",
+              messagePlaceholder: "Nachricht",
+              button: "SENDEN"
+            }
+          },
+          reserva: {
+            title: "RESERVIEREN",
+            description1: "Um zu reservieren: Rufen Sie <strong>2268-4488</strong> an oder schreiben Sie <strong>WhatsApp +(506) 8836-9997</strong> <i class='fab fa-whatsapp'></i>",
+            description2: "Die Verfügbarkeit des Zimmers wird überprüft.",
+            description3: "Reservierungsdetails werden gesendet, <strong>Sinpe Móvil</strong> – Bankverbindungen für die Anzahlung von mindestens der Hälfte, und der Rest bei Ankunft.",
+            button: "Reservieren",
+            notice: "Bei verspätetem Check-out wird eine Gebühr von 5.000 Colones pro Stunde berechnet. Strafgebühr für das Rauchen im Zimmer: 10.000 Colones."
+          },
+          footer: {
+            location: {
+              title: "Standort",
+              description: "Santa Elena, San Isidro de Heredia, Costa Rica. 300 Meter vom Sportplatz entfernt, in der Nähe der Route 32 in Richtung Limón."
+            },
+            links: {
+              title: "Schnellzugriff",
+              home: "Startseite",
+              concept: "Konzept",
+              rooms: "Zimmer",
+              activities: "Aktivitäten",
+              gallery: "Galerie",
+              location: "Standort",
+              contact: "Kontakt"
+            },
+            social: {
+              title: "Folgen Sie uns"
+            },
+            copyright: "&copy; 2025 colibricr.com Alle Rechte vorbehalten. Entwickelt von <a href='https://www.wincodecr.com/' target='_blank'>Wincodecr</a>"
+          }
+        }
+      }
+    };
+
+    i18next.init({
+      lng: 'es',
+      debug: false,
+      interpolation: { escapeValue: false }, // ¡Importante! No escapar etiquetas HTML
+      resources
+    }, function(err, t) {
+      jqueryI18next.init(i18next, $, { useOptionsAttr: true });
+      $('body').localize();
+      $('[data-i18n]').each(function() {
+        $(this).html(i18next.t($(this).attr('data-i18n')));
+      });
+    });
+
+
+    // Cambiar idioma cuando el usuario seleccione un nuevo idioma en el top bar
+    $('#languageSwitcher').on('change', function() {
+      const lang = $(this).val();
+      console.log('Idioma seleccionado desde top bar:', lang);
+      i18next.changeLanguage(lang, () => {
+        $('body').localize();
+        $('[data-i18n]').each(function() {
+          $(this).html(i18next.t($(this).attr('data-i18n')));
+        });
+      });
+    });
+
+
+
+    $(document).ready(function() {
+  // Mostrar el menú cuando se haga clic en la burbuja
+  $('#languageBubble').on('click', function(e) {
+    e.stopPropagation(); // Evitar que el clic se propague y cierre el menú
+    $('.language-menu').toggle(); // Mostrar u ocultar el menú
+  });
+
+  // Cambiar idioma cuando el usuario seleccione un nuevo idioma en la burbuja
+  $('#languageSwitcherBubble').on('change', function() {
+    const lang = $(this).val();
+    console.log('Idioma seleccionado desde burbuja:', lang);
+    i18next.changeLanguage(lang, () => {
+      $('body').localize();
+      $('[data-i18n]').each(function() {
+        $(this).html(i18next.t($(this).attr('data-i18n')));
+      });
+    });
+
+    // Cerrar el menú **solo después de seleccionar un idioma**
+    $('.language-menu').hide();
+  });
+
+  // Cerrar el menú si se hace clic fuera de la burbuja
+  $(document).on('click', function(e) {
+    if (!$(e.target).closest('#languageBubble').length) {
+      $('.language-menu').hide(); // Cerrar el menú si el clic está fuera
+    }
+  });
+
+  // Evitar que el menú se cierre al hacer clic dentro del select
+  $('.language-menu select').on('click', function(e) {
+    e.stopPropagation(); // Evitar que el clic se propague y cierre el menú
+  });
+});
+
+
+
+
+ 
+  </script>
+
+  
+
+
+
+  
+  <!-- FIN SCRIPTS -->
+
+  <!-- Lightbox para la galería -->
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img" class="lightbox-img">
+  </div>
+
+  <!-- Botón "Ir Arriba" -->
+  <button id="scrollTopBtn" class="btn-top" onclick="scrollToTop()">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  
+  <!-- Botón de WhatsApp -->
+  <a href="https://api.whatsapp.com/send?phone=+50688369997&text=¡Hola! Estoy interesado en obtener más información." 
+     class="btn-whatsapp" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Botón flotante de cambio de idioma -->
+  <div id="languageBubble" class="btn-language">
+    <i class="fas fa-globe"></i>
+    <div class="language-menu">
+      <select id="languageSwitcherBubble">
+        <option value="en">English</option>
+        <option value="es" selected>Español</option>
+        <option value="de">Deutsch</option>
+      </select>
+    </div>
+  </div>
+
+ 
+
+</body>
+</html>
+
+
